@@ -1,5 +1,5 @@
 {
-    "name": "colorthief",
+    "name": "@colortheif/colorthief",
     "version": "2.3.2",
     "author": {
         "name": "Lokesh Dhakar",
@@ -16,10 +16,10 @@
         "photo",
         "canvas"
     ],
-    "homepage": "http://lokeshdhakar.com/projects/color-thief/",
+    "homepage": "https://github.com/colorthiefpkg/color-thief",
     "repository": {
         "type": "git",
-        "url": "https://github.com/lokesh/color-thief.git"
+        "url": "https://github.com/colorthiefpkg/color-thief.git"
     },
     "license": "MIT",
     "source": "src/color-thief.js",
@@ -48,7 +48,10 @@
         "mustache": "^3.0.1"
     },
     "dependencies": {
-        "get-pixels": "^3.3.2",
-        "quantize": "github:lokesh/quantize"
+        "@colorthief/quantize": "^2.0.2",
+        "get-pixels": "^3.3.2"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
